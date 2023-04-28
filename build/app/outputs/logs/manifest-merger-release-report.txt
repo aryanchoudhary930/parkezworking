@@ -1,0 +1,283 @@
+-- Merging decision tree log ---
+application
+INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:8:5-48:19
+MERGED from [:image_picker_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:7:5-17:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0cde5c73a92287c221173bdc411e9af6\play-services-maps-18.1.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0cde5c73a92287c221173bdc411e9af6\play-services-maps-18.1.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8904237cf53d43ad174915da4a5cb60d\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8904237cf53d43ad174915da4a5cb60d\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\14acf34ea16e5ec7a7fd5f8c9596ab96\play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\14acf34ea16e5ec7a7fd5f8c9596ab96\play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0640b51297e5b78b6518267bb014c7ae\play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0640b51297e5b78b6518267bb014c7ae\play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\e4e324fde2799cc82a9b6d2e3e16efc2\window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\e4e324fde2799cc82a9b6d2e3e16efc2\window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8a3fae2f881f82be5ca420244addc5c2\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8a3fae2f881f82be5ca420244addc5c2\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\cf37ac08cdad525e46b47ab5b0406817\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\cf37ac08cdad525e46b47ab5b0406817\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8a3fae2f881f82be5ca420244addc5c2\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:10:9-34
+	android:icon
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:11:9-43
+	android:name
+		INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:9:9-42
+manifest
+ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:1:1-50:12
+INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:1:1-50:12
+INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:1:1-50:12
+INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:1:1-50:12
+MERGED from [:google_maps_flutter_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\google_maps_flutter_android\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0cde5c73a92287c221173bdc411e9af6\play-services-maps-18.1.0\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8904237cf53d43ad174915da4a5cb60d\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\14acf34ea16e5ec7a7fd5f8c9596ab96\play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0640b51297e5b78b6518267bb014c7ae\play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\ba80674a1a5fdce2b1b29eea5683af77\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\ddd1747ae89efae1600dff28a24deb9c\activity-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\5695d8d932d545af38bf66b725566d02\window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\2f70304b103eacfab05dbe55739e869f\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\49dee3543bc65746b6bba9f83aa0b18a\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\e4e324fde2799cc82a9b6d2e3e16efc2\window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8cfff56170dc4c544330e0ed77a8e98d\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\198cec44d8d965eb297dc4e246c66d69\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\9c67faa0be2c9987584ce1e9e1808366\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\86cf751735e9e9dd0416cce35c4a71a1\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8a3fae2f881f82be5ca420244addc5c2\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\c7e09936f184afa46cecf75b66497885\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\7c1a7b78a9eb87d9a948f050e96a4e5d\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\cf37ac08cdad525e46b47ab5b0406817\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0c5cc51134673ca0ea48ecf4df8abef4\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\9d12e4e2e95ff7a12df42799e4f3b1df\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\15faa7fdc535e832982b4615d300cb77\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0df68a3b2bd7178c921d3e3ef02d87f6\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\268ebc0b2bd661fb18fff0cceeca14c7\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\52382855e19b374da4ec0d16d63c14f6\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:1:1-50:12
+INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:1:1-50:12
+INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:1:1-50:12
+	package
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:2:5-35
+		INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:1:1-50:12
+		INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:1:1-50:12
+		INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:49:5-66
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0cde5c73a92287c221173bdc411e9af6\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0cde5c73a92287c221173bdc411e9af6\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:49:22-64
+uses-sdk
+INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
+MERGED from [:google_maps_flutter_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\google_maps_flutter_android\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\google_maps_flutter_android\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0cde5c73a92287c221173bdc411e9af6\play-services-maps-18.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0cde5c73a92287c221173bdc411e9af6\play-services-maps-18.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8904237cf53d43ad174915da4a5cb60d\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8904237cf53d43ad174915da4a5cb60d\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\14acf34ea16e5ec7a7fd5f8c9596ab96\play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\14acf34ea16e5ec7a7fd5f8c9596ab96\play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0640b51297e5b78b6518267bb014c7ae\play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0640b51297e5b78b6518267bb014c7ae\play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\ba80674a1a5fdce2b1b29eea5683af77\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\ba80674a1a5fdce2b1b29eea5683af77\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\ddd1747ae89efae1600dff28a24deb9c\activity-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\ddd1747ae89efae1600dff28a24deb9c\activity-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\5695d8d932d545af38bf66b725566d02\window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\5695d8d932d545af38bf66b725566d02\window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\2f70304b103eacfab05dbe55739e869f\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\2f70304b103eacfab05dbe55739e869f\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\49dee3543bc65746b6bba9f83aa0b18a\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\49dee3543bc65746b6bba9f83aa0b18a\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\e4e324fde2799cc82a9b6d2e3e16efc2\window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\e4e324fde2799cc82a9b6d2e3e16efc2\window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8cfff56170dc4c544330e0ed77a8e98d\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8cfff56170dc4c544330e0ed77a8e98d\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\198cec44d8d965eb297dc4e246c66d69\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\198cec44d8d965eb297dc4e246c66d69\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\9c67faa0be2c9987584ce1e9e1808366\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\9c67faa0be2c9987584ce1e9e1808366\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\86cf751735e9e9dd0416cce35c4a71a1\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\86cf751735e9e9dd0416cce35c4a71a1\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8a3fae2f881f82be5ca420244addc5c2\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8a3fae2f881f82be5ca420244addc5c2\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\c7e09936f184afa46cecf75b66497885\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\c7e09936f184afa46cecf75b66497885\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\7c1a7b78a9eb87d9a948f050e96a4e5d\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\7c1a7b78a9eb87d9a948f050e96a4e5d\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\cf37ac08cdad525e46b47ab5b0406817\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\cf37ac08cdad525e46b47ab5b0406817\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0c5cc51134673ca0ea48ecf4df8abef4\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0c5cc51134673ca0ea48ecf4df8abef4\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\9d12e4e2e95ff7a12df42799e4f3b1df\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\9d12e4e2e95ff7a12df42799e4f3b1df\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\15faa7fdc535e832982b4615d300cb77\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\15faa7fdc535e832982b4615d300cb77\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0df68a3b2bd7178c921d3e3ef02d87f6\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0df68a3b2bd7178c921d3e3ef02d87f6\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\268ebc0b2bd661fb18fff0cceeca14c7\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\268ebc0b2bd661fb18fff0cceeca14c7\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\52382855e19b374da4ec0d16d63c14f6\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\52382855e19b374da4ec0d16d63c14f6\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
+activity#bmitech.airbnb_clone.MainActivity
+ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:12:9-42:20
+	android:launchMode
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:14:13-43
+	android:hardwareAccelerated
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:17:13-47
+	android:windowSoftInputMode
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:18:13-55
+	android:configChanges
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:16:13-163
+	android:theme
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:15:13-47
+	android:name
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:13:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:23:13-26:17
+	android:resource
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:25:15-52
+	android:name
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:24:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:32:13-35:17
+	android:resource
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:34:15-61
+	android:name
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:33:15-79
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:36:13-37:74
+	android:value
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:37:17-72
+	android:name
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:36:24-69
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:38:13-41:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:39:17-68
+	android:name
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:40:17-76
+	android:name
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:40:27-74
+meta-data#flutterEmbedding
+ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:45:9-47:33
+	android:value
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:47:13-30
+	android:name
+		ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:46:13-44
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:image_picker_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [:image_picker_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:image_picker_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:75
+	android:resource
+		ADDED from [:image_picker_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:15:17-72
+	android:name
+		ADDED from [:image_picker_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0cde5c73a92287c221173bdc411e9af6\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0cde5c73a92287c221173bdc411e9af6\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0cde5c73a92287c221173bdc411e9af6\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0cde5c73a92287c221173bdc411e9af6\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0cde5c73a92287c221173bdc411e9af6\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0cde5c73a92287c221173bdc411e9af6\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0cde5c73a92287c221173bdc411e9af6\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0cde5c73a92287c221173bdc411e9af6\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0cde5c73a92287c221173bdc411e9af6\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0cde5c73a92287c221173bdc411e9af6\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0cde5c73a92287c221173bdc411e9af6\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8904237cf53d43ad174915da4a5cb60d\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8904237cf53d43ad174915da4a5cb60d\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8904237cf53d43ad174915da4a5cb60d\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8904237cf53d43ad174915da4a5cb60d\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0640b51297e5b78b6518267bb014c7ae\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0640b51297e5b78b6518267bb014c7ae\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\0640b51297e5b78b6518267bb014c7ae\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\e4e324fde2799cc82a9b6d2e3e16efc2\window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\e4e324fde2799cc82a9b6d2e3e16efc2\window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\e4e324fde2799cc82a9b6d2e3e16efc2\window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\e4e324fde2799cc82a9b6d2e3e16efc2\window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\e4e324fde2799cc82a9b6d2e3e16efc2\window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\e4e324fde2799cc82a9b6d2e3e16efc2\window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8a3fae2f881f82be5ca420244addc5c2\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8a3fae2f881f82be5ca420244addc5c2\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8a3fae2f881f82be5ca420244addc5c2\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#bmitech.airbnb_clone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8a3fae2f881f82be5ca420244addc5c2\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8a3fae2f881f82be5ca420244addc5c2\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8a3fae2f881f82be5ca420244addc5c2\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8a3fae2f881f82be5ca420244addc5c2\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8a3fae2f881f82be5ca420244addc5c2\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#bmitech.airbnb_clone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8a3fae2f881f82be5ca420244addc5c2\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\aryan\.gradle\caches\transforms-2\files-2.1\8a3fae2f881f82be5ca420244addc5c2\core-1.9.0\AndroidManifest.xml:26:22-94

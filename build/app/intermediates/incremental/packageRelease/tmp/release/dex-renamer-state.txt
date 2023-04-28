@@ -1,0 +1,4 @@
+#Sat Apr 15 23:47:46 IST 2023
+base.0=C\:\\Users\\aryan\\Desktop\\flutter projects\\airbnb-flutter-clone-main-2\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

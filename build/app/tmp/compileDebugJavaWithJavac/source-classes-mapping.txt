@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+bmitech/airbnb_clone/MainActivity.java
+ bmitech.airbnb_clone.MainActivity
+bmitech/airbnb_clone/BuildConfig.java
+ bmitech.airbnb_clone.BuildConfig
