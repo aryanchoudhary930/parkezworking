@@ -1,7 +1,7 @@
-import 'package:airbnb_clone/Constants/Constants.dart';
-import 'package:airbnb_clone/Model/Property.dart';
-import 'package:airbnb_clone/Model/Wilaya.dart';
-import 'package:airbnb_clone/Routes/Property-details.dart';
+import 'package:parkezze/Constants/Constants.dart';
+import 'package:parkezze/Model/Property.dart';
+import 'package:parkezze/Model/Parking_Spaces.dart';
+import 'package:parkezze/Routes/Property-details.dart';
 import 'package:flutter/material.dart';
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';

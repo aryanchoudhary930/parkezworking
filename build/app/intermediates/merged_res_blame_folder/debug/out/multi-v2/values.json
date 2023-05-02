@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\aryan\\Desktop\\flutter projects\\airbnb-flutter-clone-main-2\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Public\\airbnb-flutter-clone-main-2\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\aryan\\.gradle\\caches\\transforms-2\\files-2.1\\9d12e4e2e95ff7a12df42799e4f3b1df\\savedstate-1.2.0\\res\\values\\values.xml",
@@ -18,25 +18,6 @@
                         "startOffsets": "6145",
                         "endColumns": "53",
                         "endOffsets": "6194"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\aryan\\Desktop\\flutter projects\\airbnb-flutter-clone-main-2\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "134,777",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "426,937"
-                    },
-                    "to": {
-                        "startLines": "124,129",
-                        "startColumns": "4,4",
-                        "startOffsets": "8791,9088",
-                        "endLines": "128,131",
-                        "endColumns": "12,12",
-                        "endOffsets": "9083,9248"
                     }
                 },
                 {
@@ -105,6 +86,25 @@
                         "startOffsets": "6199",
                         "endColumns": "49",
                         "endOffsets": "6244"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Public\\airbnb-flutter-clone-main-2\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "134,777",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "426,937"
+                    },
+                    "to": {
+                        "startLines": "124,129",
+                        "startColumns": "4,4",
+                        "startOffsets": "8791,9088",
+                        "endLines": "128,131",
+                        "endColumns": "12,12",
+                        "endOffsets": "9083,9248"
                     }
                 },
                 {

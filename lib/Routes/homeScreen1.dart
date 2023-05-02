@@ -1,4 +1,4 @@
-import 'package:airbnb_clone/Model/Property.dart';
+import 'package:parkezze/Model/Property.dart';
 import 'package:flutter/material.dart';
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -66,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen1> {
         Padding(
             padding: EdgeInsets.only(left: 20, right: 120),
             child: Text(
-              "Qu'est ce que vous cherchez ?",
+              "What are you looking for ?",
               style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold),
             )),
         SizedBox(

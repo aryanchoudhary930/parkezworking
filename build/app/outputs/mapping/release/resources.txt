@@ -212,6 +212,7 @@ Referenced Strings:
   FlutterJNI
   FlutterLoader
   FlutterRenderer
+  FlutterSharedPreferences
   FlutterSplashView
   FlutterSurfaceView
   FlutterTextureView
@@ -572,6 +573,7 @@ Referenced Strings:
   SensorRightBorder
   SensorTopBorder
   SettingsChannel
+  SharedPreferencesPlugin
   Sharpness
   ShutterSpeedValue
   SidecarCompat
@@ -713,6 +715,9 @@ Referenced Strings:
   UserComment
   V:
   VERTICAL
+  VGhpcyBpcyB0aGUgcHJlZml4IGZvciBCaWdJb...
+  VGhpcyBpcyB0aGUgcHJlZml4IGZvciBEb3VibGUu
+  VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIGxpc3Qu
   VIDEO
   VIRTUAL_DISPLAY_PLATFORM_VIEW
   VISIBLE_PASSWORD
@@ -1092,6 +1097,14 @@ Referenced Strings:
   dev.flutter.pigeon.ImagePickerApi.pic...
   dev.flutter.pigeon.ImagePickerApi.pic...
   dev.flutter.pigeon.ImagePickerApi.ret...
+  dev.flutter.pigeon.SharedPreferencesA...
+  dev.flutter.pigeon.SharedPreferencesA...
+  dev.flutter.pigeon.SharedPreferencesA...
+  dev.flutter.pigeon.SharedPreferencesA...
+  dev.flutter.pigeon.SharedPreferencesA...
+  dev.flutter.pigeon.SharedPreferencesA...
+  dev.flutter.pigeon.SharedPreferencesA...
+  dev.flutter.pigeon.SharedPreferencesA...
   deviceId
   deviceState
   dimen

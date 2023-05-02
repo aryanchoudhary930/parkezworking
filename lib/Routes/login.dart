@@ -1,8 +1,9 @@
 import 'dart:convert';
 
-import 'package:airbnb_clone/Constants/Constants.dart';
+import 'package:parkezze/Constants/Constants.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'package:shared_preferences/shared_preferences.dart';
 import 'url.dart';
 
 import 'HomePage.dart';
@@ -18,6 +19,7 @@ class _LoginState extends State<Login> {
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
   bool _isNotValidate = false;
+  late SharedPreferences prefs;
 
   bool _inscription = false;
   BoxDecoration customDecoration() {
@@ -39,10 +41,10 @@ class _LoginState extends State<Login> {
         nameController.text.isNotEmpty &&
         phoneController.text.isNotEmpty) {
       var regBody = {
-        "email": emailController.text,
-        "password": passwordController.text,
         "name": nameController.text,
+        "email": emailController.text,
         "phone": phoneController.text,
+        "password": passwordController.text,
       };
       var response = await http.post(Uri.parse(registration),
           headers: {"Content-Type": "application/json"},
@@ -62,6 +64,32 @@ class _LoginState extends State<Login> {
     }
   }
 
+  void loginUser() async {
+    _isNotValidate = true;
+    prefs = await SharedPreferences.getInstance();
+    if (emailController.text.isNotEmpty && passwordController.text.isNotEmpty) {
+      var reqBody = {
+        "email": emailController.text,
+        "password": passwordController.text
+      };
+      var response = await http.post(Uri.parse(login),
+          headers: {"Content-Type": "application/json"},
+          body: jsonEncode(reqBody));
+      var jsonResponse = jsonDecode(response.body);
+      if (jsonResponse['status']) {
+        var token = jsonResponse['token'];
+        prefs.setString('token', token);
+        var email = jsonResponse['email'];
+        prefs.setString('email', email);
+        Navigator.push(context,
+            MaterialPageRoute(builder: (context) => HomePage(token: token)));
+      } else {
+        _isNotValidate = true;
+        print('Something went wrong');
+      }
+    }
+  }
+
   final formKey = GlobalKey<FormState>();
   // ignore: body_might_complete_normally_nullable
   String? validate(value) {
@@ -74,6 +102,7 @@ class _LoginState extends State<Login> {
 
       print('register');
     } else {
+      loginUser();
       // Perform login action
       print('Login action');
     }
@@ -158,6 +187,8 @@ class _LoginState extends State<Login> {
                         hintText: "Email",
                         border: InputBorder.none,
                         hintStyle: TextStyle(color: Colors.grey),
+                        errorText:
+                            _isNotValidate ? "  Invalid Credentials" : null,
                         prefixIcon: Icon(
                           Icons.mail_outline,
                           color: Constants.greenParkz,
@@ -176,6 +207,8 @@ class _LoginState extends State<Login> {
                           hintText: "Password",
                           border: InputBorder.none,
                           hintStyle: TextStyle(color: Colors.grey),
+                          errorText:
+                              _isNotValidate ? "  Invalid Credentials" : null,
                           prefixIcon: Icon(
                             Icons.lock_outline,
                             color: Constants.greenParkz,
@@ -205,19 +238,8 @@ class _LoginState extends State<Login> {
                         if (formKey.currentState!.validate()) {
                           // If the form is valid, display a snackbar. In the real world,
                           // you'd often call a server or save the information in a database
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => HomePage()));
 
-                          if (!_inscription)
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => HomePage()),
-                            );
-                          else
-                            _handleTap();
+                          _handleTap();
                         }
                       });
                     },

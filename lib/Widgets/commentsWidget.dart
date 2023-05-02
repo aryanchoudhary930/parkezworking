@@ -20,7 +20,7 @@ class _commentsWidgetState extends State<commentsWidget> {
           Align(
             alignment: Alignment.topLeft,
             child: Text(
-              "Excellent plan. En plein centre ville, belle maison entierement équipé.\nCadre exceptionnel en plein coeur d'Alger. \nKader était au petit soin",
+              "I recently rented a parking space from Satyam and it was a great experience. The location was very convenient for me.",
               style: TextStyle(
                   color: Colors.black, fontSize: 15.5, letterSpacing: 0.2),
               overflow: TextOverflow.ellipsis,
@@ -30,7 +30,7 @@ class _commentsWidgetState extends State<commentsWidget> {
           Align(
             alignment: Alignment.topLeft,
             child: InkWell(
-              child: Text(_maxlines <= 3 ? "Afficher plus" : "Afficher moins",
+              child: Text(_maxlines <= 3 ? "" : "Afficher moins",
                   style: TextStyle(
                       decoration: TextDecoration.underline,
                       fontWeight: FontWeight.w500)),

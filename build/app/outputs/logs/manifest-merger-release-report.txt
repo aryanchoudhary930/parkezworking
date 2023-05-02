@@ -31,6 +31,7 @@ ADDED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\a
 INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:1:1-50:12
 INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:1:1-50:12
 INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml:1:1-50:12
+MERGED from [:shared_preferences_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\shared_preferences_android\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
 MERGED from [:google_maps_flutter_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\google_maps_flutter_android\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
 MERGED from [:image_picker_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:2:1-19:12
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
@@ -85,6 +86,8 @@ uses-sdk
 INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\android\app\src\main\AndroidManifest.xml
+MERGED from [:shared_preferences_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\shared_preferences_android\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\shared_preferences_android\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:google_maps_flutter_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\google_maps_flutter_android\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:google_maps_flutter_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\google_maps_flutter_android\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:image_picker_android] C:\Users\aryan\Desktop\flutter projects\airbnb-flutter-clone-main-2\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44

@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:airbnb_clone/Model/Property.dart';
-import 'package:airbnb_clone/Widgets/custom_slider_widget.dart';
+import 'package:parkezze/Model/Property.dart';
+import 'package:parkezze/Widgets/custom_slider_widget.dart';
 import 'package:flutter/material.dart';
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:date_range_picker/date_range_picker.dart' as DateRagePicker;
@@ -64,7 +64,7 @@ class _BookingScreenState extends State<BookingScreen> {
                   }
                 },
                 child: new Text(
-                  "Choisir votre durée de séjour",
+                  "For how many hours you need our space",
                   style: TextStyle(color: Colors.white),
                 )),
           ),
@@ -80,12 +80,7 @@ class _BookingScreenState extends State<BookingScreen> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget>[
                         Text(
-                          "Début de Séjour",
-                          style: TextStyle(
-                              fontWeight: FontWeight.bold, fontSize: 16),
-                        ),
-                        Text(
-                          "25-juin-2020",
+                          "25-june-2023",
                           style: TextStyle(
                               color: Colors.black38, height: 1.5, fontSize: 16),
                         )
@@ -98,18 +93,7 @@ class _BookingScreenState extends State<BookingScreen> {
                     ),
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
-                      children: <Widget>[
-                        Text(
-                          "Fin de Séjour",
-                          style: TextStyle(
-                              fontWeight: FontWeight.bold, fontSize: 16),
-                        ),
-                        Text(
-                          "29-juin-2020",
-                          style: TextStyle(
-                              color: Colors.black38, height: 1.5, fontSize: 16),
-                        )
-                      ],
+                      children: <Widget>[],
                     ),
                   ],
                 ),
@@ -123,18 +107,7 @@ class _BookingScreenState extends State<BookingScreen> {
                     Column(
                       mainAxisSize: MainAxisSize.min,
                       crossAxisAlignment: CrossAxisAlignment.center,
-                      children: <Widget>[
-                        Text(
-                          "Nombre de nuit",
-                          style: TextStyle(
-                              fontWeight: FontWeight.bold, fontSize: 16),
-                        ),
-                        Text(
-                          "4",
-                          style: TextStyle(
-                              color: Colors.black38, height: 1.5, fontSize: 16),
-                        )
-                      ],
+                      children: <Widget>[],
                     ),
                     Container(
                       width: 1,
@@ -146,12 +119,12 @@ class _BookingScreenState extends State<BookingScreen> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget>[
                         Text(
-                          "Prix total",
+                          "Total Price",
                           style: TextStyle(
                               fontWeight: FontWeight.bold, fontSize: 16),
                         ),
                         Text(
-                          "9800 DA",
+                          "Rs 1000",
                           style: TextStyle(
                               color: Colors.black38, height: 1.5, fontSize: 16),
                         )

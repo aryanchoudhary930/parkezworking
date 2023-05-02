@@ -1,7 +1,7 @@
-import 'package:airbnb_clone/Constants/Constants.dart';
-import 'package:airbnb_clone/Model/Property.dart';
+import 'package:parkezze/Constants/Constants.dart';
+import 'package:parkezze/Model/Property.dart';
 import 'package:flutter/material.dart';
-import 'package:airbnb_clone/Widgets/ImageView.dart';
+import 'package:parkezze/Widgets/ImageView.dart';
 import 'package:flutter_slider_indicator/flutter_slider_indicator.dart';
 
 class Properties extends StatefulWidget {

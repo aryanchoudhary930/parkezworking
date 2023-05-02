@@ -1,7 +1,7 @@
-import 'package:airbnb_clone/Constants/Constants.dart';
-import 'package:airbnb_clone/Model/Property.dart';
-import 'package:airbnb_clone/Routes/Payer.dart';
-import 'package:airbnb_clone/Routes/Property-details.dart';
+import 'package:parkezze/Constants/Constants.dart';
+import 'package:parkezze/Model/Property.dart';
+import 'package:parkezze/Routes/Payer.dart';
+import 'package:parkezze/Routes/Property-details.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_slider_indicator/flutter_slider_indicator.dart';
 
@@ -166,7 +166,7 @@ class _ImagePropertyState extends State<ImageProperty> {
                       Align(
                         alignment: Alignment.topLeft,
                         child: Text(
-                          "${widget.property.prix} DZD/nuit",
+                          "${widget.property.prix} Rs/booking",
                           style: TextStyle(
                               color: Colors.black54,
                               fontSize: 13,

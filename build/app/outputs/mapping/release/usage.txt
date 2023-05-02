@@ -52,7 +52,6 @@ androidx.annotation.NonUiContext
 com.google.android.gms.maps.LocationSource$OnLocationChangedListener
 com.google.android.gms.common.data.zae
 kotlin.jvm.internal.TypeReference$asString$args$1
-io.flutter.embedding.engine.dart.DartMessenger$TaskQueueToken
 androidx.collection.SimpleArrayMap:
     public void <init>(androidx.collection.SimpleArrayMap)
     public void putAll(androidx.collection.SimpleArrayMap)
@@ -442,6 +441,7 @@ kotlin.collections.ArraysKt___ArraysJvmKt:
 androidx.core.text.util.LinkifyCompat$LinkifyMask
 com.google.android.gms.common.images.ImageManager
 com.google.android.gms.maps.model.zzq
+io.flutter.plugins.sharedpreferences.R$style
 kotlinx.coroutines.internal.LocalAtomics_commonKt
 kotlinx.coroutines.channels.AbstractChannel$onReceive$1
 bmitech.airbnb_clone.BuildConfig
@@ -1463,6 +1463,13 @@ kotlinx.coroutines.internal.AtomicDesc:
 kotlinx.coroutines.flow.FlowKt__CollectionKt$toCollection$1
 com.google.android.gms.common.api.internal.zae
 androidx.viewpager.widget.PagerTabStrip
+io.flutter.plugins.sharedpreferences.SharedPreferencesPlugin:
+    public static void registerWith(io.flutter.plugin.common.PluginRegistry$Registrar)
+    private static final java.lang.String TAG
+    private static final java.lang.String SHARED_PREFERENCES_NAME
+    private static final java.lang.String LIST_IDENTIFIER
+    private static final java.lang.String BIG_INTEGER_PREFIX
+    private static final java.lang.String DOUBLE_PREFIX
 kotlinx.coroutines.channels.Channel$Factory:
     public static final int UNLIMITED
     public static final int RENDEZVOUS
@@ -1828,6 +1835,8 @@ com.google.android.gms.maps.model.Circle:
     public boolean isVisible()
 kotlinx.coroutines.flow.internal.ChannelFlowMerge$collectTo$2$1
 kotlinx.coroutines.selects.SelectBuilder$DefaultImpls
+io.flutter.plugins.sharedpreferences.Messages:
+    public void <init>()
 com.google.android.gms.maps.model.Polyline:
     public float getWidth()
     public float getZIndex()
@@ -3799,6 +3808,7 @@ kotlinx.coroutines.flow.internal.CombineKt$zipImpl$1$1
 kotlinx.coroutines.flow.FlowKt__ReduceKt
 androidx.core.content.IntentSanitizer
 com.google.android.gms.common.util.concurrent.HandlerExecutor
+io.flutter.plugins.sharedpreferences.R$id
 kotlin.reflect.KMutableProperty1$Setter
 androidx.core.util.RangeKt
 androidx.fragment.app.FragmentHostCallback:
@@ -4420,6 +4430,7 @@ org.intellij.lang.annotations.PrintFormatPattern
 com.google.android.gms.maps.GoogleMap$CancelableCallback
 kotlinx.coroutines.flow.internal.SafeCollector_commonKt:
     public static final kotlinx.coroutines.flow.Flow unsafeFlow(kotlin.jvm.functions.Function2)
+io.flutter.plugins.sharedpreferences.R$string
 kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3
 kotlin.collections.builders.MapBuilderKeys
 io.flutter.plugins.imagepicker.R$string
@@ -4524,6 +4535,7 @@ kotlinx.coroutines.internal.AtomicKt:
 com.google.android.gms.common.util.JsonUtils
 kotlin.TypeCastException
 androidx.core.widget.TextViewCompat$Api17Impl
+io.flutter.plugins.sharedpreferences.R$layout
 kotlin.jvm.internal.TypeReference$WhenMappings
 androidx.core.util.LruCacheKt$lruCache$2
 kotlinx.coroutines.flow.FlowKt__LimitKt$drop$2$1
@@ -4992,7 +5004,8 @@ kotlin.Deprecated
 androidx.core.R$style
 kotlinx.coroutines.sync.MutexImpl$LockCont$tryResumeLockWaiter$1
 kotlinx.coroutines.debug.internal.Marked
-io.flutter.plugin.common.BinaryMessenger$TaskQueueOptions
+io.flutter.plugin.common.BinaryMessenger$TaskQueueOptions:
+    public io.flutter.plugin.common.BinaryMessenger$TaskQueueOptions setIsSerial(boolean)
 com.google.android.gms.tasks.SuccessContinuation
 com.google.android.gms.common.server.response.FastParser$ParseException
 com.google.android.gms.maps.MapView:
@@ -5176,9 +5189,9 @@ kotlin.sequences.GeneratorSequence
 kotlin.sequences.SequencesKt__SequenceBuilderKt$sequence$$inlined$Sequence$1
 androidx.customview.widget.ExploreByTouchHelper
 androidx.annotation.CheckResult
-io.flutter.embedding.engine.systemchannels.PlatformViewsChannel:
-    private static final java.lang.String TAG
 io.flutter.embedding.engine.systemchannels.PlatformChannel:
+    private static final java.lang.String TAG
+io.flutter.embedding.engine.systemchannels.PlatformViewsChannel:
     private static final java.lang.String TAG
 androidx.core.animation.AnimatorKt$addListener$4
 kotlin.Suppress
@@ -5635,6 +5648,7 @@ io.flutter.plugin.platform.PlatformViewsController:
 kotlin.collections.ArraysKt___ArraysJvmKt$asList$3
 kotlin.NumbersKt__BigIntegersKt
 kotlin.text.StringsKt__IndentKt$prependIndent$1
+io.flutter.plugins.sharedpreferences.R$dimen
 com.google.android.gms.maps.model.StampStyle$Builder
 androidx.core.widget.TextViewKt$doOnTextChanged$$inlined$addTextChangedListener$default$1
 kotlin.comparisons.ComparisonsKt__ComparisonsKt$thenBy$1
@@ -5663,6 +5677,7 @@ androidx.core.graphics.TypefaceCompatApi28Impl
 kotlinx.coroutines.internal.LockFreeLinkedListNode$makeCondAddOp$1
 androidx.core.widget.TextViewCompat$Api26Impl
 com.google.android.gms.common.providers.PooledExecutorsProvider$PooledExecutorFactory
+io.flutter.plugins.sharedpreferences.R
 com.google.android.gms.maps.zzt
 io.flutter.plugins.imagepicker.R$styleable
 com.google.android.gms.internal.maps.zzi:
@@ -5894,6 +5909,7 @@ com.google.android.gms.common.data.DataBufferRef
 kotlin.collections.ArrayDeque
 kotlin.sequences.SequencesKt___SequencesKt$runningFold$1
 kotlin.coroutines.RestrictsSuspension
+io.flutter.plugins.sharedpreferences.R$integer
 androidx.core.graphics.RegionKt$iterator$1
 com.google.android.gms.common.util.concurrent.NamedThreadFactory
 androidx.fragment.app.FragmentManager$BackStackEntry
@@ -6711,8 +6727,6 @@ androidx.core.provider.CallbackWithHandler$1
 kotlinx.coroutines.flow.CallbackFlowBuilder$collectTo$1
 androidx.tracing.R
 io.flutter.plugin.common.BinaryMessenger:
-    public io.flutter.plugin.common.BinaryMessenger$TaskQueue makeBackgroundTaskQueue()
-    public io.flutter.plugin.common.BinaryMessenger$TaskQueue makeBackgroundTaskQueue(io.flutter.plugin.common.BinaryMessenger$TaskQueueOptions)
     public abstract void send(java.lang.String,java.nio.ByteBuffer)
     public void enableBufferingIncomingMessages()
     public void disableBufferingIncomingMessages()
@@ -7941,6 +7955,7 @@ com.google.android.gms.common.zzw
 io.flutter.embedding.engine.loader.FlutterLoader$Settings:
     public void setLogTag(java.lang.String)
 kotlin.text.Regex$special$$inlined$fromInt$1
+io.flutter.plugins.sharedpreferences.BuildConfig
 androidx.core.util.Pools$SynchronizedPool
 androidx.core.animation.AnimatorKt
 kotlin.jvm.functions.Function15:
@@ -8405,7 +8420,6 @@ io.flutter.embedding.engine.dart.DartExecutor:
     public void executeDartEntrypoint(io.flutter.embedding.engine.dart.DartExecutor$DartEntrypoint)
     public void executeDartCallback(io.flutter.embedding.engine.dart.DartExecutor$DartCallback)
     public io.flutter.plugin.common.BinaryMessenger getBinaryMessenger()
-    public io.flutter.plugin.common.BinaryMessenger$TaskQueue makeBackgroundTaskQueue(io.flutter.plugin.common.BinaryMessenger$TaskQueueOptions)
     public void send(java.lang.String,java.nio.ByteBuffer)
     public void enableBufferingIncomingMessages()
     public void disableBufferingIncomingMessages()
@@ -8593,8 +8607,6 @@ io.flutter.plugins.imagepicker.Messages$CacheRetrievalResult:
     public io.flutter.plugins.imagepicker.Messages$CacheRetrievalError getError()
     public java.util.List getPaths()
 kotlin.OptIn
-io.flutter.embedding.engine.dart.DartMessenger$TaskQueueFactory:
-    public abstract io.flutter.embedding.engine.dart.DartMessenger$DartMessengerTaskQueue makeBackgroundTaskQueue(io.flutter.plugin.common.BinaryMessenger$TaskQueueOptions)
 com.google.android.gms.maps.StreetViewPanorama$OnStreetViewPanoramaLongClickListener
 androidx.core.os.HandlerKt$postAtTime$runnable$1
 androidx.exifinterface.media.ExifInterface:
@@ -9282,6 +9294,7 @@ io.flutter.plugins.flutter_plugin_android_lifecycle.R
 androidx.core.location.LocationManagerCompat$GnssListenersHolder
 com.google.android.gms.common.api.internal.zabd
 kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt$toList$1
+io.flutter.plugins.sharedpreferences.R$styleable
 com.google.android.gms.internal.common.zzr
 com.google.android.gms.common.server.converter.zae
 com.google.android.gms.common.GooglePlayServicesRepairableException
@@ -9902,7 +9915,6 @@ com.google.android.gms.common.api.internal.zaai
 kotlin.PreconditionsKt__AssertionsJVMKt
 androidx.exifinterface.R
 io.flutter.embedding.engine.dart.DartExecutor$DefaultBinaryMessenger:
-    public io.flutter.plugin.common.BinaryMessenger$TaskQueue makeBackgroundTaskQueue(io.flutter.plugin.common.BinaryMessenger$TaskQueueOptions)
     public void send(java.lang.String,java.nio.ByteBuffer)
     public void enableBufferingIncomingMessages()
     public void disableBufferingIncomingMessages()
@@ -10095,6 +10107,8 @@ kotlinx.coroutines.channels.AbstractChannel:
     public kotlinx.coroutines.selects.SelectClause1 getOnReceiveOrNull()
 kotlin.collections.unsigned.UArraysKt___UArraysKt$withIndex$2
 kotlinx.coroutines.sync.MutexKt
+io.flutter.plugins.sharedpreferences.Messages$FlutterError:
+    public void <init>(java.lang.String,java.lang.String,java.lang.Object)
 com.google.android.gms.internal.maps.zzc:
     public static java.util.ArrayList zzb(android.os.Parcel)
 kotlin.jvm.internal.ArrayBooleanIterator
@@ -10261,6 +10275,7 @@ kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt$filterNot$1
 com.google.common.util.concurrent.ListenableFuture
 com.google.android.gms.common.AccountPicker$AccountChooserOptions$Builder
 kotlinx.coroutines.CancelFutureOnCompletion
+io.flutter.plugins.sharedpreferences.R$attr
 kotlin.jvm.internal.PropertyReference0Impl:
     public void <init>(kotlin.reflect.KDeclarationContainer,java.lang.String,java.lang.String)
     public void <init>(java.lang.Class,java.lang.String,java.lang.String,int)
@@ -10538,6 +10553,7 @@ com.google.android.gms.maps.model.PolygonOptions:
     public com.google.android.gms.maps.model.PolygonOptions strokePattern(java.util.List)
     public java.util.List getHoles()
 kotlin.jvm.internal.ArrayIteratorsKt
+io.flutter.plugins.sharedpreferences.R$drawable
 kotlin.jvm.internal.KTypeBase
 androidx.core.content.ContentValuesKt
 androidx.core.view.WindowInsetsCompat$Type:
@@ -10763,8 +10779,6 @@ androidx.core.graphics.Insets$Api29Impl:
     private void <init>()
 androidx.core.view.ViewCompat$4
 com.google.android.gms.common.api.zah
-io.flutter.embedding.engine.dart.DartMessenger$DefaultTaskQueueFactory:
-    public io.flutter.embedding.engine.dart.DartMessenger$DartMessengerTaskQueue makeBackgroundTaskQueue(io.flutter.plugin.common.BinaryMessenger$TaskQueueOptions)
 com.google.android.gms.common.data.DataHolder
 kotlin.jvm.internal.ShortCompanionObject
 androidx.core.content.pm.PackageInfoCompat
@@ -10874,6 +10888,7 @@ com.google.android.gms.common.internal.safeparcel.SafeParcelReader:
     public static java.math.BigInteger[] createBigIntegerArray(android.os.Parcel,int)
     public static boolean[] createBooleanArray(android.os.Parcel,int)
     public static byte[][] createByteArrayArray(android.os.Parcel,int)
+io.flutter.plugins.sharedpreferences.R$color
 kotlin.jvm.functions.Function13:
     public abstract java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object)
 androidx.activity.result.IntentSenderRequest$Builder
@@ -11051,7 +11066,6 @@ kotlin.contracts.ExperimentalContracts
 kotlin.StandardKt__StandardKt
 androidx.fragment.R$integer
 com.google.android.gms.maps.model.StreetViewSource
-io.flutter.embedding.engine.dart.DartMessenger$1
 kotlin.math.MathKt__MathHKt
 androidx.core.graphics.BitmapCompat$Api31Impl
 kotlinx.coroutines.flow.FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$4
@@ -11722,7 +11736,6 @@ androidx.lifecycle.MediatorLiveData
 kotlin.ULongKt
 kotlin.jvm.internal.ArrayFloatIterator
 io.flutter.embedding.engine.dart.DartMessenger:
-    public io.flutter.plugin.common.BinaryMessenger$TaskQueue makeBackgroundTaskQueue(io.flutter.plugin.common.BinaryMessenger$TaskQueueOptions)
     public void enableBufferingIncomingMessages()
     public void disableBufferingIncomingMessages()
     public void send(java.lang.String,java.nio.ByteBuffer)
@@ -11765,7 +11778,6 @@ androidx.core.graphics.drawable.IconCompat$Api30Impl:
 androidx.core.view.ViewCompat$UnhandledKeyEventManager:
     static void registerListeningView(android.view.View)
     static void unregisterListeningView(android.view.View)
-io.flutter.embedding.engine.dart.DartMessenger$ConcurrentTaskQueue
 kotlin.contracts.ReturnsNotNull
 androidx.core.content.pm.ShortcutXmlParser
 androidx.core.os.OutcomeReceiverKt
@@ -11924,7 +11936,6 @@ com.google.android.gms.maps.GoogleMap$OnCameraChangeListener
 androidx.core.util.SparseLongArrayKt$keyIterator$1
 androidx.core.net.TrafficStatsCompat
 io.flutter.embedding.android.AndroidTouchProcessor$PointerSignalKind
-io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue
 io.flutter.plugins.googlemaps.TileOverlayController:
     public void setTileProvider(com.google.android.gms.maps.model.TileProvider)
 kotlin.ranges.LongRange$Companion
@@ -12660,8 +12671,6 @@ io.flutter.view.AccessibilityBridge$SemanticsNode:
 androidx.core.app.PictureInPictureModeChangedInfo:
     private final boolean mIsInPictureInPictureMode
     private final android.content.res.Configuration mNewConfig
-io.flutter.embedding.engine.dart.DartMessenger$DefaultTaskQueueFactory:
-    java.util.concurrent.ExecutorService executorService
 kotlinx.coroutines.channels.AbstractChannel$enqueueReceiveInternal$$inlined$addLastIfPrevAndIf$1:
     final synthetic kotlinx.coroutines.internal.LockFreeLinkedListNode $node
 androidx.core.os.BundleApi21ImplKt:
@@ -12697,8 +12706,6 @@ androidx.core.view.ViewCompat:
     private static final int[] ACCESSIBILITY_ACTIONS_RESOURCE_IDS
     private static final androidx.core.view.OnReceiveContentViewBehavior NO_OP_ON_RECEIVE_CONTENT_VIEW_BEHAVIOR
     private static final androidx.core.view.ViewCompat$AccessibilityPaneVisibilityManager sAccessibilityPaneVisibilityManager
-io.flutter.embedding.engine.dart.DartMessenger:
-    private io.flutter.embedding.engine.dart.DartMessenger$TaskQueueFactory taskQueueFactory
 androidx.core.os.LocaleListCompat:
     private static final androidx.core.os.LocaleListCompat sEmptyLocaleList
 com.google.android.gms.common.api.internal.zaag
@@ -12713,11 +12720,13 @@ androidx.core.view.ViewCompat$AccessibilityViewProperty:
     private final int mContentChangeType
 com.google.android.gms.internal.common.zzc:
     private static final java.lang.ClassLoader zza
+io.flutter.view.TextureRegistry$SurfaceTextureEntry$-CC
 androidx.lifecycle.HasDefaultViewModelProviderFactory$-CC
 io.flutter.plugin.platform.PlatformView$-CC:
     public static void $default$onInputConnectionLocked(io.flutter.plugin.platform.PlatformView)
     public static void $default$onInputConnectionUnlocked(io.flutter.plugin.platform.PlatformView)
-io.flutter.plugin.common.BinaryMessenger$-CC
 androidx.lifecycle.DefaultLifecycleObserver$-CC
-io.flutter.view.TextureRegistry$SurfaceTextureEntry$-CC
+io.flutter.plugin.common.BinaryMessenger$-CC:
+    public static io.flutter.plugin.common.BinaryMessenger$TaskQueue $default$makeBackgroundTaskQueue(io.flutter.plugin.common.BinaryMessenger,io.flutter.plugin.common.BinaryMessenger$TaskQueueOptions)
+    public static void $default$setMessageHandler(io.flutter.plugin.common.BinaryMessenger,java.lang.String,io.flutter.plugin.common.BinaryMessenger$BinaryMessageHandler,io.flutter.plugin.common.BinaryMessenger$TaskQueue)
 androidx.core.view.MenuProvider$-CC

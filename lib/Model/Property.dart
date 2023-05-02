@@ -1,4 +1,4 @@
-import 'package:airbnb_clone/Model/Address.dart';
+import 'package:parkezze/Model/Address.dart';
 
 abstract class Property {
   String titre;
@@ -22,25 +22,15 @@ abstract class Property {
 
 class Facilities {
   // ignore: non_constant_identifier_names
-  bool InterdectionFumee;
-  bool serviceDeChambre;
-  bool piscine;
-  bool gym;
-  bool repasInclus;
-  bool wifi;
-  bool enfantAutorise;
-  // ignore: non_constant_identifier_names
-  bool Parking;
-  bool equipe;
+  bool indoor;
+  bool washroom;
+  bool valet;
+  bool dropandpickup;
 
   Facilities(
-      this.InterdectionFumee,
-      this.serviceDeChambre,
-      this.piscine,
-      this.gym,
-      this.repasInclus,
-      this.wifi,
-      this.enfantAutorise,
-      this.Parking,
-      this.equipe);
+    this.indoor,
+    this.washroom,
+    this.valet,
+    this.dropandpickup,
+  );
 }

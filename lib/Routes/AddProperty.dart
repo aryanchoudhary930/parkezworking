@@ -1,8 +1,8 @@
-import 'package:airbnb_clone/Routes/AddProperty/spacename.dart';
-import 'package:airbnb_clone/Routes/AddProperty/addspace.dart';
+import 'package:parkezze/Routes/AddProperty/spacename.dart';
+import 'package:parkezze/Routes/AddProperty/addspace.dart';
 import 'package:flutter/material.dart';
 
-import 'package:airbnb_clone/Routes/HomePage.dart';
+import 'package:parkezze/Routes/HomePage.dart';
 
 void main() => runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
@@ -76,7 +76,7 @@ class _AddPropertyState extends State<AddProperty> {
                             width: MediaQuery.of(context).size.width / 2,
                             child: Center(
                                 child: Text(
-                              "Chambre privé à Algerie",
+                              "Oberoi Parking",
                               style: TextStyle(
                                   fontSize: 15, fontWeight: FontWeight.w300),
                               maxLines: 5,
@@ -103,7 +103,7 @@ class _AddPropertyState extends State<AddProperty> {
                             width: MediaQuery.of(context).size.width / 2,
                             child: Center(
                                 child: Text(
-                              "Chambre privé à Algerie",
+                              "AKC Parking",
                               style: TextStyle(
                                   fontSize: 15, fontWeight: FontWeight.w300),
                               maxLines: 5,

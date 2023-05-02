@@ -1,7 +1,7 @@
-import 'package:airbnb_clone/Constants/Constants.dart';
-import 'package:airbnb_clone/Model/Wilaya.dart';
-import 'package:airbnb_clone/Routes/Profile.dart';
-import 'package:airbnb_clone/Routes/Properties1.dart';
+import 'package:parkezze/Constants/Constants.dart';
+import 'package:parkezze/Model/Parking_Spaces.dart';
+import 'package:parkezze/Routes/Profile.dart';
+import 'package:parkezze/Routes/Properties1.dart';
 import 'package:flutter/material.dart';
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -17,7 +17,7 @@ class TopWilaya extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Text(
-                  "Top Wilayas",
+                  "To",
                   style: TextStyle(
                       fontSize: 22,
                       fontWeight: FontWeight.bold,

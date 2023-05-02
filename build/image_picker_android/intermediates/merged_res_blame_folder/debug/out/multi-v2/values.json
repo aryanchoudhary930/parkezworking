@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\aryan\\Desktop\\flutter projects\\airbnb-flutter-clone-main-2\\build\\image_picker_android\\intermediates\\res\\merged\\debug\\values\\values.xml",
+            "outputFile": "C:\\Users\\Public\\airbnb-flutter-clone-main-2\\build\\image_picker_android\\intermediates\\res\\merged\\debug\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\aryan\\.gradle\\caches\\transforms-2\\files-2.1\\9d12e4e2e95ff7a12df42799e4f3b1df\\savedstate-1.2.0\\res\\values\\values.xml",
@@ -112,7 +112,7 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\aryan\\Desktop\\flutter projects\\airbnb-flutter-clone-main-2\\build\\image_picker_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Public\\airbnb-flutter-clone-main-2\\build\\image_picker_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\aryan\\.gradle\\caches\\transforms-2\\files-2.1\\9d12e4e2e95ff7a12df42799e4f3b1df\\savedstate-1.2.0\\res\\values\\values.xml",

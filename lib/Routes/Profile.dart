@@ -1,7 +1,7 @@
 
-import 'package:airbnb_clone/Routes/AddProperty.dart';
-import 'package:airbnb_clone/Routes/InfoPersonnel.dart';
-import 'package:airbnb_clone/Routes/login.dart';
+import 'package:parkezze/Routes/AddProperty.dart';
+import 'package:parkezze/Routes/InfoPersonnel.dart';
+import 'package:parkezze/Routes/login.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(

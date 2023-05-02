@@ -1,8 +1,8 @@
-import 'package:airbnb_clone/Constants/Constants.dart';
-import 'package:airbnb_clone/Model/Property.dart';
-import 'package:airbnb_clone/Routes/Payer.dart';
-import 'package:airbnb_clone/Widgets/commentsWidget.dart';
-import 'package:airbnb_clone/Routes/DescriptionDetails.dart';
+import 'package:parkezze/Constants/Constants.dart';
+import 'package:parkezze/Model/Property.dart';
+import 'package:parkezze/Routes/Payer.dart';
+import 'package:parkezze/Widgets/commentsWidget.dart';
+import 'package:parkezze/Routes/DescriptionDetails.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_slider_indicator/flutter_slider_indicator.dart';
 
@@ -110,7 +110,7 @@ class _PropertyDetailsState extends State<PropertyDetails> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Text(
-                          "Hôte : Mahmoud",
+                          "Owner : Satyam",
                           style: TextStyle(
                               color: Colors.black,
                               fontSize: 15,
@@ -141,7 +141,7 @@ class _PropertyDetailsState extends State<PropertyDetails> {
                 child: Padding(
                   padding: EdgeInsets.fromLTRB(25, 2, 25, 0),
                   child: Text(
-                    "équipements".toUpperCase(),
+                    "Facilities".toUpperCase(),
                     style: TextStyle(
                         color: Colors.black,
                         fontSize: 18,
@@ -152,7 +152,11 @@ class _PropertyDetailsState extends State<PropertyDetails> {
                 ),
               ),
               buildEquipement(Facilities(
-                  false, true, false, false, true, false, false, false, true)),
+                false,
+                true,
+                false,
+                false,
+              )),
               separateurHorizontal(),
               Padding(
                 padding: EdgeInsets.fromLTRB(13, 2, 25, 5),
@@ -221,7 +225,7 @@ class _PropertyDetailsState extends State<PropertyDetails> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Text(
-                          "Mahmoud",
+                          "Sarthak",
                           style: TextStyle(
                               color: Colors.black,
                               fontSize: 16,
@@ -230,7 +234,7 @@ class _PropertyDetailsState extends State<PropertyDetails> {
                           overflow: TextOverflow.ellipsis,
                         ),
                         Text(
-                          "novembre 2019",
+                          "April 2023",
                           style: TextStyle(
                               color: Colors.black45,
                               fontSize: 14,
@@ -280,11 +284,7 @@ class _PropertyDetailsState extends State<PropertyDetails> {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
-              Text("Wi-Fi", style: commodite.wifi ? active : bare),
-              Icon(
-                Icons.wifi,
-                color: commodite.wifi ? Constants.redParkz : Colors.grey,
-              )
+              Text("Indoor", style: commodite.indoor ? active : bare),
             ],
           ),
         ),
@@ -293,14 +293,7 @@ class _PropertyDetailsState extends State<PropertyDetails> {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
-              Text("Service de chambre",
-                  style: commodite.serviceDeChambre ? active : bare),
-              Icon(
-                Icons.local_laundry_service,
-                color: commodite.serviceDeChambre
-                    ? Constants.redParkz
-                    : Colors.grey,
-              )
+              Text("Washroom", style: commodite.washroom ? active : bare),
             ],
           ),
         ),
@@ -309,11 +302,7 @@ class _PropertyDetailsState extends State<PropertyDetails> {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
-              Text("Piscine", style: commodite.piscine ? active : bare),
-              Icon(
-                Icons.pool,
-                color: commodite.piscine ? Constants.redParkz : Colors.grey,
-              )
+              Text("Valet", style: commodite.valet ? active : bare),
             ],
           ),
         ),
@@ -322,67 +311,8 @@ class _PropertyDetailsState extends State<PropertyDetails> {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
-              Text("Gym", style: commodite.gym ? active : bare),
-              Icon(
-                Icons.fitness_center,
-                color: commodite.gym ? Constants.redParkz : Colors.grey,
-              )
-            ],
-          ),
-        ),
-        Padding(
-          padding: const EdgeInsets.symmetric(vertical: 7, horizontal: 25),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              Text("Repas ", style: commodite.repasInclus ? active : bare),
-              Icon(
-                Icons.room_service,
-                color:
-                    commodite.repasInclus ? Constants.redParkz : Colors.grey,
-              )
-            ],
-          ),
-        ),
-        Padding(
-          padding: const EdgeInsets.symmetric(vertical: 7, horizontal: 25),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              Text("Enfant autorisé ",
-                  style: commodite.enfantAutorise ? active : bare),
-              Icon(
-                Icons.child_care,
-                color: commodite.enfantAutorise
-                    ? Constants.redParkz
-                    : Colors.grey,
-              )
-            ],
-          ),
-        ),
-        Padding(
-          padding: const EdgeInsets.symmetric(vertical: 7, horizontal: 25),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              Text("Parking", style: commodite.Parking ? active : bare),
-              Icon(
-                Icons.local_parking,
-                color: commodite.Parking ? Constants.redParkz : Colors.grey,
-              )
-            ],
-          ),
-        ),
-        Padding(
-          padding: const EdgeInsets.symmetric(vertical: 7, horizontal: 25),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              Text("Equipé", style: commodite.equipe ? active : bare),
-              Icon(
-                Icons.widgets,
-                color: commodite.equipe ? Constants.redParkz : Colors.grey,
-              )
+              Text("Drop and Pick up facility",
+                  style: commodite.dropandpickup ? active : bare),
             ],
           ),
         ),
@@ -408,7 +338,7 @@ class _PropertyDetailsState extends State<PropertyDetails> {
           child: Align(
             alignment: Alignment.topLeft,
             child: Text(
-              "A modern furnished apartment, in a quiet area, but very close to the busy street of sidi yahia.\n-parquet floor/ central ",
+              "Conveniently located parking space available for rent. Safe and secure with 24-hour access. \n Contact me for more information and pricing.",
               style: TextStyle(
                   color: Colors.black54,
                   fontSize: 14,
@@ -431,13 +361,12 @@ class _PropertyDetailsState extends State<PropertyDetails> {
             child: Row(
               children: <Widget>[
                 Text(
-                  "Voir plus d'éléments",
+                  "",
                   style: TextStyle(
                       decoration: TextDecoration.underline,
                       fontWeight: FontWeight.w500,
                       fontSize: 16),
                 ),
-                Icon(Icons.arrow_right)
               ],
             ),
           ),
@@ -529,7 +458,7 @@ class _PropertyDetailsState extends State<PropertyDetails> {
               style: TextStyle(color: Colors.white),
             ),
             Text(
-              "/ nuit",
+              "/ Rs",
               style: TextStyle(color: Colors.white, fontSize: 16),
             ),
           ],

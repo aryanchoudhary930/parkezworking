@@ -1,5 +1,5 @@
-import 'package:airbnb_clone/Routes/Map.dart';
-import 'package:airbnb_clone/Widgets/ItemDropDownButtonCategory.dart';
+import 'package:parkezze/Routes/Map.dart';
+import 'package:parkezze/Widgets/ItemDropDownButtonCategory.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(

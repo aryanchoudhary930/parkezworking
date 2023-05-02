@@ -1,5 +1,8 @@
-import 'package:airbnb_clone/Constants/Constants.dart';
+import 'package:parkezze/Constants/Constants.dart';
+// ignore: unused_import
+import 'package:parkezze/Routes/login.dart';
 import 'package:flutter/material.dart';
+import 'package:parkezze/Routes/BookingConfirmation.dart';
 
 class Payer extends StatefulWidget {
   @override
@@ -14,8 +17,8 @@ class _PayerState extends State<Payer> {
         child: Padding(
           padding: EdgeInsets.symmetric(vertical: 25, horizontal: 15),
           child:
-          Column(crossAxisAlignment: CrossAxisAlignment.start, children: <
-              Widget>[
+              Column(crossAxisAlignment: CrossAxisAlignment.start, children: <
+                  Widget>[
             Row(
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
@@ -62,7 +65,7 @@ class _PayerState extends State<Payer> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Text(
-                          "Appartement en résidence",
+                          "",
                           style: TextStyle(fontSize: 12),
                           overflow: TextOverflow.ellipsis,
                           maxLines: 1,
@@ -71,7 +74,7 @@ class _PayerState extends State<Payer> {
                           height: 10,
                         ),
                         Text(
-                          "Appartement",
+                          "Sarthu Parking Space",
                           style: TextStyle(fontSize: 16),
                           overflow: TextOverflow.ellipsis,
                           maxLines: 1,
@@ -80,7 +83,7 @@ class _PayerState extends State<Payer> {
                           height: 8,
                         ),
                         Text(
-                          "Alger centre",
+                          "Rohini,Delhi",
                           style: TextStyle(fontSize: 16),
                           overflow: TextOverflow.ellipsis,
                           maxLines: 1,
@@ -213,11 +216,11 @@ class _PayerState extends State<Payer> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Text(
-                  "2500 x 5 nuits",
+                  "100 x 5",
                   style: TextStyle(color: Colors.grey, fontSize: 16),
                 ),
                 Text(
-                  "Rs 12500",
+                  "Rs 500",
                   style: TextStyle(color: Colors.grey, fontSize: 16),
                 ),
               ],
@@ -227,7 +230,12 @@ class _PayerState extends State<Payer> {
             ),
             Center(
               child: MaterialButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => BookingConfirmation()));
+                },
                 child: Container(
                     width: MediaQuery.of(context).size.width,
                     padding: EdgeInsets.symmetric(vertical: 15, horizontal: 15),

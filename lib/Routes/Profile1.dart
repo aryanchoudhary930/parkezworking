@@ -1,5 +1,5 @@
-import 'package:airbnb_clone/Constants/Constants.dart';
-import 'package:airbnb_clone/Model/Property.dart';
+import 'package:parkezze/Constants/Constants.dart';
+import 'package:parkezze/Model/Property.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(

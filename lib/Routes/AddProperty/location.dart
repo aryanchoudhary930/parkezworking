@@ -1,12 +1,74 @@
-import 'package:airbnb_clone/Routes/AddProperty/Facilities.dart';
+import 'dart:convert';
+
+import 'package:parkezze/Routes/AddProperty/Facilities.dart';
+import 'package:parkezze/Routes/AddProperty/spacename.dart';
+
 import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+import 'package:parkezze/Routes/url.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class Location extends StatefulWidget {
   @override
+  String spacename = "";
+  String capacity = "";
+  Location({required this.spacename, required this.capacity});
+
   _LocationState createState() => _LocationState();
 }
 
 class _LocationState extends State<Location> {
+  TextEditingController countryController = TextEditingController();
+  TextEditingController stateController = TextEditingController();
+  TextEditingController districtController = TextEditingController();
+  TextEditingController streetController = TextEditingController();
+  TextEditingController propertynumberController = TextEditingController();
+  TextEditingController postalcodeController = TextEditingController();
+
+  late SharedPreferences prefs;
+
+  bool _isNotValidate = false;
+
+  void addlocation() async {
+    if (countryController.text.isNotEmpty &&
+        stateController.text.isNotEmpty &&
+        districtController.text.isNotEmpty &&
+        streetController.text.isNotEmpty &&
+        propertynumberController.text.isNotEmpty &&
+        postalcodeController.text.isNotEmpty) {
+      prefs = await SharedPreferences.getInstance();
+      var email = prefs.getString('email');
+      String _spacename = widget.spacename;
+      String _capacity = widget.capacity;
+      var regBody = {
+        "userEmail": email,
+        "country": countryController.text,
+        "state": stateController.text,
+        "district": districtController.text,
+        "street": streetController.text,
+        "propertynumber": propertynumberController.text,
+        "postalcode": postalcodeController.text,
+        "spacename": _spacename,
+        "capacity": _capacity
+      };
+      var response = await http.post(Uri.parse(location),
+          headers: {"Content-Type": "application/json"},
+          body: jsonEncode(regBody));
+      var jsonResponse = jsonDecode(response.body);
+      print(jsonResponse['status']);
+      if (jsonResponse['status']) {
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => Facilities()));
+      } else {
+        print("SomeThing Went Wrong");
+      }
+    } else {
+      setState(() {
+        _isNotValidate = true;
+      });
+    }
+  }
+
   final formKey = GlobalKey<FormState>();
   // ignore: body_might_complete_normally_nullable
   String? validate(value) {
@@ -98,6 +160,7 @@ class _LocationState extends State<Location> {
                             fontWeight: FontWeight.w400),
                       ),
                       TextFormField(
+                        controller: countryController,
                         style: TextStyle(color: Colors.black87, fontSize: 18),
                         validator: (value) => validate(value),
                         decoration: InputDecoration(),
@@ -122,6 +185,7 @@ class _LocationState extends State<Location> {
                             fontWeight: FontWeight.w400),
                       ),
                       TextFormField(
+                        controller: stateController,
                         style: TextStyle(color: Colors.black87, fontSize: 18),
                         validator: (value) => validate(value),
                         decoration: InputDecoration(),
@@ -146,6 +210,7 @@ class _LocationState extends State<Location> {
                             fontWeight: FontWeight.w400),
                       ),
                       TextFormField(
+                        controller: districtController,
                         style: TextStyle(color: Colors.black87, fontSize: 18),
                         validator: (value) => validate(value),
                         decoration: InputDecoration(),
@@ -170,6 +235,7 @@ class _LocationState extends State<Location> {
                             fontWeight: FontWeight.w400),
                       ),
                       TextFormField(
+                        controller: streetController,
                         style: TextStyle(color: Colors.black87, fontSize: 18),
                         validator: (value) => validate(value),
                         decoration: InputDecoration(),
@@ -194,6 +260,7 @@ class _LocationState extends State<Location> {
                             fontWeight: FontWeight.w400),
                       ),
                       TextFormField(
+                        controller: propertynumberController,
                         style: TextStyle(color: Colors.black87, fontSize: 18),
                         validator: (value) => validate(value),
                         decoration: InputDecoration(),
@@ -218,6 +285,7 @@ class _LocationState extends State<Location> {
                             fontWeight: FontWeight.w400),
                       ),
                       TextFormField(
+                        controller: postalcodeController,
                         style: TextStyle(color: Colors.black87, fontSize: 18),
                         validator: (value) => validate(value),
                         decoration: InputDecoration(),
@@ -236,8 +304,7 @@ class _LocationState extends State<Location> {
           if (formKey.currentState!.validate()) {
             // If the form is valid, display a snackbar. In the real world,
             // you'd often call a server or save the information in a database
-            Navigator.push(
-                context, MaterialPageRoute(builder: (context) => Facilities()));
+            addlocation();
           }
         },
         elevation: 3,

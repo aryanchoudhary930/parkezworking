@@ -1,5 +1,5 @@
-import 'package:airbnb_clone/Model/Property.dart';
-import 'package:airbnb_clone/Routes/BookingScreen.dart';
+import 'package:parkezze/Model/Property.dart';
+import 'package:parkezze/Routes/BookingScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_slider_indicator/flutter_slider_indicator.dart';
 

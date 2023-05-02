@@ -1,6 +1,6 @@
-import 'package:airbnb_clone/Constants/Constants.dart';
-import 'package:airbnb_clone/Model/SliderModel.dart';
-import 'package:airbnb_clone/Routes/login.dart';
+import 'package:parkezze/Constants/Constants.dart';
+import 'package:parkezze/Model/SliderModel.dart';
+import 'package:parkezze/Routes/login.dart';
 import 'package:flutter/material.dart';
 
 class Ongoing extends StatefulWidget {

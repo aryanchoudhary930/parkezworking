@@ -1,4 +1,4 @@
-import 'package:airbnb_clone/Routes/AddProperty.dart';
+import 'package:parkezze/Routes/AddProperty.dart';
 import 'package:flutter/material.dart';
 
 class Photo extends StatefulWidget {

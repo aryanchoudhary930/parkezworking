@@ -31,7 +31,7 @@ class _infoPersonnelState extends State<InfoPersonnel> {
                   ),
                   InkWell(
                     child: Text(
-                      "sauvegarder",
+                      "",
                       style:
                           TextStyle(fontSize: 14, fontWeight: FontWeight.w400),
                     ),
@@ -44,7 +44,7 @@ class _infoPersonnelState extends State<InfoPersonnel> {
               Padding(
                 padding: EdgeInsets.symmetric(vertical: 8.0, horizontal: 10),
                 child: Text(
-                  "Personel Information",
+                  "Personal Information",
                   style: TextStyle(
                       color: Colors.black,
                       fontSize: 30,
